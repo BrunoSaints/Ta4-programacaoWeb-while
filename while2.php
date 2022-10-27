@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $i = 1;
-        while ($i <= 10):
-        echo $i;
-        $i++;
-    ?>
+<?php
+    $a = 1;
+    while($a <= 5) {
+    echo "O número é: $a";
+    $a++;
+    }
+?>
 </body>
 </html>
